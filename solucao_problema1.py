@@ -40,7 +40,7 @@ acaba = False
 while posPal < qntTestes:
     #aqui é um bloco que o sistema vai analisar todas as possibilidades que não tem uma lógica
     if qntPalitos[posPal] < 15:
-        valPalit = [1, 7, 4, 3, 0, 8, 10, 18, 22, 20, 28, 68, 88]
+        valPalit = [1, 7, 4, 3, 6, 8, 10, 18, 22, 20, 28, 68, 88]
         pos = qntPalitos[posPal] - 2
         minValor = valPalit[pos]
         acaba = True
